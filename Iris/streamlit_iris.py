@@ -21,7 +21,7 @@ model.fit(X_train, y_train)
 
 # Streamlit UI
 st.title("Iris Dataset Classifier")
-st.image("C:/AI/ML/9a32d741-51c7-4573-9799-8d933ee642c6.png", caption="Iris Flower Types") # Add the image here
+st.image("9a32d741-51c7-4573-9799-8d933ee642c6.png", caption="Iris Flower Types") # Add the image here
 
 st.sidebar.header("Model Configuration")
 n_neighbors = st.sidebar.slider("Number of Neighbors (k)", 1, 10, 4)
